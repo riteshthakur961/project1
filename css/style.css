@@ -1,0 +1,48 @@
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* header*/
+
+#logo {
+  fill: #02b3e4;
+  height: 100px;
+  width: 100px;
+}
+
+.name {
+    text-align: right;
+}
+
+h1 {
+    color: #2d3c49;
+}
+
+h5 {
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+    color: #2d3c49;
+}
+
+/* primary image*/
+
+.heading {
+    border-top: 3px solid #7d97ad;
+    padding-top: 12px;
+    margin: 12px 0 12px 0;
+}
+
+/* Featured Work */
+
+.project_title {
+    color: #7d97ad;
+}
+
+p {
+  color: red;
+}
+
+.modal-body {
+    color: red;
+}
