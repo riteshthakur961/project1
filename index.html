@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portfolio | Ritesh Thakur</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+  <body>
+    <div class="container">
+
+      <header class="row">
+        <div class="col-md-6">
+          <svg id="logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <title>Responsive logo</title>
+            <path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zM12 18c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6zm0-10c-2.21 0-4 1.79-4 4s1.79 4 4 4 4-1.79 4-4-1.79-4-4-4z"></path>
+          </svg>
+        </div>
+        <div class="col-md-6 name">
+          <h1>RITESH THAKUR</h1>
+          <h5>FRONT-END DEVELOPER</h5>
+        </div>
+      </header>
+
+      <div class="row">
+        <div class="col-md-12">
+          <img src="images/primary_1x.jpg" class="img-responsive heading" srcset="images/primary_2x.jpg 2x" alt=primary_image >
+        </div>
+      </div>
+
+      <section class="row">
+        <div class="col-md-12">
+          <h3 class="project_title">Featured Work</h3>
+          <p>Click on images for Brief Description</p>
+        </div>
+      </section>
+
+      <section class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/portfolio.jpg" alt=image_of_portfolio data-toggle="modal" data-target="#project1">
+          <h3>Build a Portfolio Site</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/office.jpg" alt=image_of_an_office data-toggle="modal" data-target="#project2">
+          <h3>Online Resume</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/game.jpg" alt=an_arcade_game data-toggle="modal" data-target="#project3">
+          <h3>Arcade Game Clone</h3>
+          <p><a href="http://github.com/">Link to project</a></p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Modal1 -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Build a Portfolio Site</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/portfolio.jpg" alt=image_of_portfolio>
+                    This was my first project of my Front-End-Web-Developer Nanaodegree. I learned a lot about developing a personalised portfolio. I used html5 and Css3 to complete this project. Bootstrap Framework has been used here to render grid structure. The whole portfolio is fully responsive.Git was used to provide version control and github was used to host the site. Srcset has been used to display images according to device-pixel-ratio. New Projects will be continually added to it.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal2 -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">Online Resume</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/office.jpg" alt=image_of_office>
+                    Yet to be done!!!!!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal3 -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Arcade Game Clone</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/game.jpg" alt=image_of_game>
+                    Yet to be done!!!!!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  </body>
+</html>
