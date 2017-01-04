@@ -10,8 +10,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <script src="js/jquery-3.1.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
 </head>
 
   <body>
@@ -45,17 +43,17 @@
 
       <section class="row text-center">
         <div class="col-md-4">
-          <img class="img-responsive" src="images/portfolio.jpg" alt=image_of_portfolio data-toggle="modal" data-target="#project1">
+          <img class="img-responsive" src="images/portfolio_1x.jpg" alt=image_of_portfolio srcset="images/portfolio_2x.jpg 2x" data-toggle="modal" data-target="#project1">
           <h3>Build a Portfolio Site</h3>
           <p><a href="https://github.com/riteshthakur961/project1">Link to project</a></p>
         </div>
         <div class="col-md-4">
-          <img class="img-responsive" src="images/office.jpg" alt=image_of_an_office data-toggle="modal" data-target="#project2">
+          <img class="img-responsive" src="images/office_1x.jpg" alt=image_of_an_office srcset="images/office_2x.jpg 2x" data-toggle="modal" data-target="#project2">
           <h3>Online Resume</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
         <div class="col-md-4">
-          <img class="img-responsive" src="images/game.jpg" alt=an_arcade_game data-toggle="modal" data-target="#project3">
+          <img class="img-responsive" src="images/game_1x.jpg" alt=an_arcade_game srcset="images/game_2x.jpg 2x" data-toggle="modal" data-target="#project3">
           <h3>Arcade Game Clone</h3>
           <p><a href="http://github.com/">Link to project</a></p>
         </div>
@@ -70,7 +68,7 @@
                     <h4 class="modal-title" id="myModalLabel">Build a Portfolio Site</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/portfolio.jpg" alt=image_of_portfolio>
+                    <img class="img-responsive" src="images/portfolio_1x.jpg" srcset="images/portfolio_2x.jpg 2x" alt=image_of_portfolio>
                     This was my first project of my Front-End-Web-Developer Nanaodegree. I learned a lot about developing a personalised portfolio. I used html5 and Css3 to complete this project. Bootstrap Framework has been used here to render grid structure. The whole portfolio is fully responsive.Git was used to provide version control and github was used to host the site. Srcset has been used to display images according to device-pixel-ratio. New Projects will be continually added to it.
                 </div>
                 <div class="modal-footer">
@@ -88,7 +86,7 @@
                     <h4 class="modal-title" id="myModalLabel2">Online Resume</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/office.jpg" alt=image_of_office>
+                    <img class="img-responsive" src="images/office_1x.jpg" srcset="images/office_2x.jpg 2x" alt=image_of_office>
                     Yet to be done!!!!!!!
                 </div>
                 <div class="modal-footer">
@@ -106,7 +104,7 @@
                     <h4 class="modal-title" id="myModalLabel3">Arcade Game Clone</h4>
                 </div>
                 <div class="modal-body">
-                    <img class="img-responsive" src="images/game.jpg" alt=image_of_game>
+                    <img class="img-responsive" src="images/game_1x.jpg" srcset="images/game_2x.jpg 2x" alt=image_of_game>
                     Yet to be done!!!!!!!
                 </div>
                 <div class="modal-footer">
@@ -116,4 +114,6 @@
         </div>
     </div>
   </body>
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
 </html>
